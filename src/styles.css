@@ -6,3 +6,53 @@ body {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/*Header contents*/
+
+header {
+  width: 100%;
+  height: 150px;
+  background-color: aquamarine;
+  color: black;
+}
+
+header ul {
+  background-color: cornflowerblue;
+  color: black;
+  position: fixed;
+  height: inherit;
+  width: 100%;
+}
+
+header li {
+  display: inline-block;
+  margin: 0px, auto;
+  text-align: center;
+  line-height: 90px;
+}
+
+header a {
+  background-color: darkblue;
+  color: white;
+  display: block;
+  height: inherit;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0px, auto;
+  text-decoration: none;
+  text-align: center;
+  transition: all 300ms;
+}
+
+header li :hover {
+  background-color: black;
+  color: white;
+  display: block;
+  height: inherit;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0px, auto;
+  text-decoration: none;
+  text-align: center;
+  transition: all 500ms;
+}
