@@ -1,1 +1,8 @@
 /* Add application styles & imports to this file! */
+
+body {
+  background-color: darkcyan;
+  color: moccasin;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
