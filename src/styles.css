@@ -10,25 +10,21 @@ body {
 /*Header contents*/
 
 header {
-  width: 100%;
+  margin: auto;
+  width: 95%;
   height: 150px;
   background-color: aquamarine;
   color: black;
-}
-
-header ul {
-  background-color: cornflowerblue;
-  color: black;
-  position: fixed;
-  height: inherit;
-  width: 100%;
+  justify-content: center;
 }
 
 header li {
   display: inline-block;
-  margin: 0px, auto;
+  margin: auto;
   text-align: center;
   line-height: 90px;
+  width: 150px;
+  font-size: 18px;
 }
 
 header a {
