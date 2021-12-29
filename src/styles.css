@@ -11,7 +11,6 @@ body {
 
 header {
   margin: auto;
-  width: 95%;
   height: 150px;
   background-color: aquamarine;
   color: black;
@@ -47,8 +46,39 @@ header li :hover {
   height: inherit;
   padding-left: 10px;
   padding-right: 10px;
-  margin: 0px, auto;
+  margin: 0px auto;
   text-decoration: none;
   text-align: center;
   transition: all 500ms;
+}
+
+.actived {
+  background-color: black;
+  color: white;
+  display: block;
+  height: inherit;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0px auto;
+  text-decoration: none;
+  text-align: center;
+  transition: all 500ms;
+}
+
+/*Contenedor principal*/
+
+.content {
+  width: 95%;
+  box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.2);
+  background: gray;
+  margin: auto;
+  padding-top: 300px;
+}
+
+/*Pie de pagina*/
+
+.foot {
+  background-color: black;
+  min-height: 100px;
+  margin: auto;
 }

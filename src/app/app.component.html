@@ -1,12 +1,34 @@
 <header>
   <h1 style="float:up">Andres Mendoza</h1>
   <div>
-    <li><a [routerLink]="['/acerca-de-mi']">Acerca de mi</a></li>
-    <li><a [routerLink]="['/contacto']">Contacto</a></li>
-    <li><a></a></li>
-    <li><a [routerLink]="['/contacto']">Curriculum</a></li>
-    <li><a [routerLink]="['/mis-proyectos']">Proyectos</a></li>
+    <li>
+      <a [routerLink]="['/acerca-de-mi']" [routerLinkActive]="'actived'"
+        >Acerca de mi</a
+      >
+    </li>
+    <li>
+      <a [routerLink]="['/contacto']" [routerLinkActive]="'actived'"
+        >Contacto</a
+      >
+    </li>
+    <li>
+      <a [routerLink]="['/curriculum']" [routerLinkActive]="'actived'"
+        >Curriculum</a
+      >
+    </li>
+    <li>
+      <a [routerLink]="['/mis-proyectos']" [routerLinkActive]="'actived'"
+        >Proyectos</a
+      >
+    </li>
   </div>
-  </header>
+</header>
 
-<router-outlet></router-outlet>
+<div class="content">
+  <router-outlet></router-outlet>
+</div>
+
+<footer class="foot">
+  Desarrollado en StackBlizt
+  <div></div>
+</footer>
